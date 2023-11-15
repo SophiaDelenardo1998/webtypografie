@@ -1,0 +1,644 @@
+/* **********************************************
+Basic mechanics
+Hide all paragraphs by default
+Show them when they receive the class 'on'
+Hide them when they receive the class 'off'
+Feel free to adjust the defaults to your needs.
+********************************************** */
+
+#video-mask{
+  aspect-ratio:240.5/100;
+	display: grid;
+	overflow:hidden;
+	align-content: center;
+	transition: 1s;
+}
+#closed-captions p {
+	opacity: 0;
+	transition: .05s;
+	position: absolute;
+}
+#closed-captions .on {
+	opacity: 1;
+}
+#closed-captions .off {
+	transition: .2s;
+	opacity: 0;
+}
+/*Voice Robot*/
+.voice1 {
+	font-family: "brenner mono";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #778da9;
+}
+
+/*Voice Ryan */
+.voice2 {
+	font-family: "brenner";
+	font-size: 20px;
+  color: #faa307;
+	text-align: right;
+	font-style: bold;
+	font-weight: 400;
+
+}
+
+/*Voice persoon in de gang */
+.voice3 {
+	font-family: "brenner condensed";
+	color: red;
+	font-style: bold;
+	text-transform: uppercase;
+	font-size: 30px;
+
+}
+
+/*Voice - Robot 2*/
+.voice4 {
+	font-style: normal;
+	color: #023047;
+	font-family: "brenner mono";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/* **********************************************
+The first paragraph, with extended timing for
+	all siblings. Basically what it does is that
+	it shows the text after a delay, which
+	corresponds with the time that the word is
+	spoken.
+You probably want to change the styling.
+********************************************** */
+
+/*Officer K D 6 - 3 . 7. Let’s begin. Ready?*/
+.p0 span {
+	opacity: 1;
+}
+
+/*Yes, sir*/
+.p1.on span {
+  opacity: 1;
+}
+
+/*Recite your baseline.*/
+.p2.on span {
+  opacity: 1;
+}
+
+/*And blood-black nothingness began to spin*/
+.p3.on span {
+  opacity: 1;
+}
+
+/*A system of cells interlinked within cells,*/
+.p4.on span {
+  opacity: 1;
+}
+
+/*interlinked within cells, interlinked within one stem.*/
+.p5.on span {
+  opacity: 1;
+}
+
+/*Fuck off, skin-job!*/
+.p6.on span {
+  opacity: 1;
+}
+
+/*And dreadfully distinct against the dark, a tall white fountain played...*/
+.p7.on span {
+  opacity: 1;
+}
+
+/*Cells.*/
+.p8.on span {
+  opacity: 1;
+}
+/*Cells.*/
+.p9.on span {
+  color: white;
+}
+/*Have you ever been in an institution?*/
+.p10.on span {
+  opacity: 1;
+}
+
+/*Cells.*/
+.p11.on span {
+  opacity: 1;
+}
+/*Cells.*/
+.p12.on span {
+  opacity: 1;
+}
+/*Do they keep you in a cell?*/
+.p13.on span {
+  opacity: 1;
+}
+/*Cells.*/
+.p14.on span {
+  opacity: 1;
+}
+/*Cells.*/
+.p15.on span {
+  opacity: 1;
+}
+/*When you're not performing your duties, do they keep you in a little box?*/
+.p16.on span {
+  opacity: 1;
+}
+/*Cells.*/
+.p17.on span {
+  opacity: 1;
+}
+/*Cells.*/
+.p18.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p19.on span {
+  opacity: 1;
+}
+
+/*Interlinked.*/
+.p20.on span {
+  opacity: 1;
+}
+/*What's it like to hold the hand of someone you love?*/
+.p21.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p22.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p23.on span {
+  opacity: 1;
+}
+/*Did they teach you how to feel, finger to finger?*/
+.p24.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p25.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p26.on span {
+  opacity: 1;
+}
+/*Do you long for having your heart interlinked?*/
+.p27.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p28.on span {
+  opacity: 1;
+}
+
+/*Interlinked.*/
+.p29.on span {
+  opacity: 1;
+}
+/*Do you dream about being interlinked?*/
+.p30.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p31.on span {
+  opacity: 1;
+}
+/*What's it like to hold your child in your arms?*/
+.p32.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p33.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p34.on span {
+  opacity: 1;
+}
+/*Do you feel that there's a part of you that's missing?*/
+.p35.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p36.on span {
+  opacity: 1;
+}
+/*Interlinked.*/
+.p37.on span {
+  opacity: 1;
+}
+/*Within cells interlinked.*/
+.p38.on span {
+  opacity: 1;
+}
+/*Within cells interlinked.*/
+.p39.on span {
+  opacity: 1;
+}
+/*Why don't you say that three times: "within cells interlinked"*/
+.p40.on span {
+  opacity: 1;
+}
+/*Within cells interlinked.*/
+.p41.on span {
+  opacity: 1;
+}
+/*Within cells interlinked.*/
+.p42.on span {
+  opacity: 1;
+}
+/*Within cells interlinked.*/
+.p43.on span {
+  opacity: 1;
+}
+/*We're done.*/
+.p44.on span {
+  opacity: 1;
+}
+/*Constant K.*/
+.p45.on span {
+  opacity: 1;
+}
+
+/*You can pick up your bonus.*/
+.p46.on span {
+  opacity: 1;
+}
+/*Thank you, sir.*/
+.p47.on span {
+  opacity: 1;
+}
+
+/*Cells.*/
+.p48.on span {
+  opacity: 1;
+}
+	/*Cells.*/
+	.p49.on span {
+	  opacity: 1;
+	}
+	/*Have you ever been in an institution. Cells.*/
+	.p50.on span {
+	  opacity: 1;
+	}
+	/*Cells.*/
+	.p51.on span {
+	  opacity: 1;
+	}
+	/*When you're not performing your duties, do they keep you in a little box? Cells.*/
+	.p52.on span {
+	  opacity: 1;
+	}
+	/*Cells.*/
+	.p53.on span {
+	  opacity: 1;
+	}
+	/*Interlinked. What’s it like to hold the hand of someone you love?*/
+	.p54.on span {
+	  opacity: 1;
+	}
+	/*Interlinked.*/
+	.p55.on span {
+	  opacity: 1;
+	}
+	/*Interlinked.*/
+	.p56.on span {
+	  opacity: 1;
+	}
+	/*Within cells interlinked.*/
+	.p57.on span {
+	  opacity: 1;
+	}
+	/*Within cells interlinked.*/
+	.p58.on span {
+	  opacity: 1;
+	}
+	/*Dreadfully*/
+	.p59.on span {
+	  opacity: 1;
+	}
+	/*Dreadfully*/
+	.p60.on span {
+	  opacity: 1;
+	}
+	/*What's it like to be filled with dread? Dreadfully.*/
+	.p61.on span {
+	  opacity: 1;
+	}
+	/*Dreadfully.*/
+	.p62.on span {
+	  opacity: 1;
+	}
+	/*Do you like being separated from other people? Distinct.*/
+	.p63.on span {
+	  opacity: 1;
+	}
+	/*Distinct.*/
+	.p64.on span {
+	  opacity: 1;
+	}
+	/*Dreadfully distinct.*/
+	.p65.on span {
+	  opacity: 1;
+	}
+	/*Dreadfully distinct.*/
+	.p66.on span {
+	  opacity: 1;
+	}
+	/*Dark.*/
+	.p67.on span {
+	  opacity: 1;
+	}
+	/*Dark.*/
+	.p68.on span {
+	  opacity: 1;
+	}
+	/*Within cells interlinked.*/
+	.p69.on span {
+	  opacity: 1;
+	}
+	/*Within cells interlinked.*/
+	.p70.on span {
+	  opacity: 1;
+	}
+	/*Withing one stem.*/
+	.p71.on span {
+	  opacity: 1;
+	}
+	/*Withing one stem.*/
+	.p72.on span {
+	  opacity: 1;
+	}
+	/*And dreadfully distinct.*/
+	.p73.on span {
+	  opacity: 1;
+	}
+	/*And dreadfully distinct.*/
+	.p74.on span {
+	  opacity: 1;
+	}
+	/*Against the dark.*/
+	.p75.on span {
+	  opacity: 1;
+	}
+	/*Against the dark.*/
+	.p76.on span {
+	  opacity: 1;
+	}
+	/*A tall white fountain played.*/
+	.p77.on span {
+	  opacity: 1;
+	}
+	/*A tall white fountain played.*/
+	.p78.on span {
+	  opacity: 1;
+	}
+	/*You're not even close to baseline.*/
+	.p79.on span {
+	  opacity: 1;
+	}
+
+/*Thank you, sir.*/
+.p47.on span {
+  opacity: 1;
+}
+
+
+
+/* **********************************************
+Basic layout.
+	Place the video in the center of the page.
+*********************************************  */
+
+body {
+	display: grid;
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+}
+#video-container {
+	margin: auto;
+}
+
+iframe {
+	width: 40vw;
+	height:26.66665vw;
+	margin-top: -0.35vw;
+}
+
+body{
+	background-color: black;
+}
+/* **********************************************
+Sounds.
+	You can style the whole body, or you can
+	style anything within the body the moment
+	a sound starts.
+*********************************************  */
+
+
+/* alarm visualisatie */
+.sound1{
+	animation-name: alarm;
+	animation-duration: 1s;
+}
+
+@keyframes alarm {
+	0%{
+	background:red;
+	}
+
+	25%{
+		background:black;
+	}
+
+	50%{
+		background:red;
+	}
+
+	75%{
+		background:black;
+	}
+
+	100%{
+		background:black;
+	}
+}
+
+
+.sound2{
+	animation-name: blink;
+	animation-duration: 1s;
+}
+
+@keyframes blink {
+  0% { background-color: red; }
+  50% { background-color: transparent; }
+  100% { background-color: red; }
+}
+
+
+/* hogepiep visualisatie */
+.sound4{
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+}
+.sound3{
+	animation-name: blink2;
+	animation-duration: 1s;
+}
+@keyframes blink2 {
+	0% { background-color: yellow; }
+	10% { background-color: black; }
+	20% { background-color: yellow; }
+	30% { background-color: black; }
+	40% { background-color: yellow; }
+	50% { background-color: black; }
+	60% { background-color: yellow; }
+	70% { background-color: black; }
+	80% { background-color: yellow; }
+	90  { background-color: black; }
+	100% { background-color: yellow; }
+}
+.sound5{
+	animation-name: blink2;
+	animation-duration: 0.5s;
+}
+
+@keyframes blink2 {
+	0% { background-color: yellow; }
+	10% { background-color: black; }
+	20% { background-color: yellow; }
+	30% { background-color: black; }
+	40% { background-color: yellow; }
+	50% { background-color: black; }
+	60% { background-color: yellow; }
+	70% { background-color: black; }
+	80% { background-color: yellow; }
+	90  { background-color: black; }
+	100% { background-color: yellow; }
+}
+
+.sound6{
+	animation-name: rotate;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+@keyframes rotate {
+	0% {
+			transform: rotate(0deg);
+	}
+
+	100% {
+			transform: rotate(360deg);
+	}
+}
+
+.sound7{
+	animation-name: schudden;
+	animation-duration: 5s;
+	animation-duration: 1;
+	animation-timing-function: linear;
+}
+
+@keyframes schudden {
+	0%{
+		transform: translateX(20px);
+	}
+	10%{
+		transform: translateX(-20px);
+	}
+	20%{
+		transform: translateX(20px);
+	}
+
+30%{
+	  transform: translateX(-20px);
+  }
+
+40%{
+	transform: translateX(20px);
+}
+
+50%{
+		transform: translateX(-20px);
+}
+
+60%{
+		transform: translateX(20px);
+}
+
+70%{
+		transform: translateX(-20px);
+}
+
+80%{
+		transform: translateX(20px);
+}
+
+90%{
+		transform: translateX(-20px);
+}
+
+100%{
+	transform: translateX(20px);
+}
+}
+
+.sound8{
+	animation-name: rotate;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+@keyframes rotate {
+	0% {
+			transform: rotate(0deg);
+	}
+
+	100% {
+			transform: rotate(360deg);
+	}
+}
+
+.sound9 {
+  animation-name: vergroten;
+  animation-duration: 43s;
+}
+
+@keyframes vergroten {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.3, 1.3);
+  }
+}
